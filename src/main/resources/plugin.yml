@@ -1,0 +1,6 @@
+author: Glitchfinder
+description: A world generator plugin that generates mountainous fjords.
+main: com.glitchkey.fjordlands.FjordlandsPlugin
+name: Fjordlands
+version: '1.0'
+depend: [Pandora]

@@ -1,0 +1,36 @@
+= Fjordlands =
+**[[https://github.com/Glitchfinder/Fjordlands/releases|Download]] |
+[[https://github.com/Glitchfinder/Fjordlands|Source]] |
+[[https://github.com/Glitchfinder/Fjordlands/issues|Issue Tracker]]**
+
+Fjordlands is a mountainous terrain generator which produces a continous
+series of mountains and fjord-like lakes. Many resources are difficult or
+impossible to obtain here, and the consistently mountainous terrain makes
+exploration a difficult and often slow task.
+
+This plugin depends on a world generation API I developed, which can be found
+[[https://github.com/Glitchfinder/Pandora|here]].
+
+It is recommended that anyone using this plugin who wants to be able to do
+everything you can in a normal survival world use another plugin to create a
+means of travel between this world and either the normal overworld, or directly
+to the nether and the end.
+
+This world was designed back in early 2012, and very little has changed since.
+As such, newer blocks, resources, mobs, and items may be unbalanced or not
+present at all.
+
+Ths current build of this generator appears like this ingame:
+
+{{http://i.imgur.com/Dn7T8LN.png}}
+
+== To Compile ==
+This project is configured for [[https://maven.apache.org/|Maven]]. To compile,
+you must have Maven installed, along with an applicable copy of the Java
+Development Kit (JDK).
+
+This project also requires another Bukkit plugin I developed, linked above.
+That must be downloaded and compiled first, using the "mvn clean package
+install" command to ensure that it gets added to a local library so Maven can
+compile this project. Assuming it is in a local library, this plugin can be
+compiled with the command "mvn clean package".
